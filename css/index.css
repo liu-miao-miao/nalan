@@ -1,0 +1,331 @@
+body,ul,li,p,h1,h2,h3,h4,h5,h6,img,br,hr,table,tr,td,dl,dt,dd,form {
+	margin: 0;
+	padding: 0;
+}
+body {
+	width: 1240px;
+	margin: 0 auto;
+	color: #7e7e7e;
+}
+/* 页面顶部区域 */
+.top {
+	width: 1240px;
+	height: 18px;
+	background-color: #fff;
+}
+.top ul {
+	float: right;
+	margin-right: 134px;
+}
+.top ul li {
+	display: inline;
+	margin-right: 5px;
+	color: #ccc;
+}
+.top ul li a {
+	font-size: 16px;
+	color: #ccc;
+	text-decoration: none;
+}
+.top ul li a:hover {
+	color: #F9733D;
+}
+/* 页面头部header区域 */
+.header {
+	width: 1240px;
+	height: 110px;
+}
+.header .header_logo_input {
+	width: 970px;
+	margin: 0 auto;
+}
+.header .header_logo_input .header_logo{
+	float: left;
+	width: 111px;
+	height: 63px;
+}
+.header .header_logo_input .name {
+	float: left;
+	font-size: 20px;
+	color: #F9733D;
+	margin-top: 10px;
+}
+.header .header_logo_input .header_input {
+	float: right;
+	margin-top: 27px;
+}
+.header .header_logo_input .clear {
+	clear: both;
+}
+.header .header_links {
+	width: 970px;
+	height: 16px;
+	margin: 0 auto;
+}
+.header .header_links ul {
+	float: right;
+	margin: 18px 11px 13px 16px;
+}
+.header .header_links ul li {
+	display: inline;
+	margin-right: 5px;
+	color: #ccc;
+}
+.header .header_links ul li a {
+	font-size: 16px;
+	color: #7a7a7a;
+	font-weight: bold;
+	text-decoration: none;
+}
+.header .header_links ul li a:hover {
+	color: #F9733D;
+}
+.banner {
+	width: 1240px;
+	height: 413px;
+}
+.portrait_news {
+	width: 970px;
+	height: 233px;
+	margin: 19px auto;
+}
+.portrait_news .portrait {
+	float: left;
+	width: 693px;
+	height: 233px;
+	background-color: #fafafa;
+}
+.portrait_news .portrait .portrait_pic {
+	width: 652px;
+	height: 200px;
+}
+.portrait_news .portrait .portrait_pic img {
+	width: 105px;
+	height: 150px;
+}
+.portrait_news .portrait .portrait_pic dl {
+	float: left;
+	width: 111px;
+	height: 157px;
+	margin: 13px 15px 30px 0;
+	background-color: #e5e5e5;
+}
+.portrait_news .portrait .portrait_pic dl dd {
+	text-align: center;
+	color: #a7a4a4;
+	font-size: 14px;
+}
+.portrait_news .news {
+	float: right;
+	width: 262px;
+	height: 233px;
+	background-color: #fafafa;
+}
+.workshow {
+	width: 970px;
+	height: 403px;
+	margin: 0 auto;
+	background-color: #fafafa; 
+}
+.workshow .workshow_pic {
+	width: 942px;
+	height: 370px;
+	margin: 0 12px 7px 11px;
+}
+.workshow .workshow_pic .workshow_pic_left {
+	width: 212px;
+	height: 371px;
+	float: left;
+	background-color: #f2f1f1;
+}
+.workshow .workshow_pic .workshow_pic_left dl {
+	float: left;
+	width: 214px;
+	height: 322px;
+	margin: 5px 0 0;
+	background-color: #f2f1f1;
+}
+.workshow .workshow_pic .workshow_pic_left dl dd {
+	text-align: center;
+	color: #747070;
+	font-size: 20px;
+}
+.workshow .workshow_pic .workshow_pic_right {
+	width: 689px;
+	height: 371px;
+	float: left;
+	margin-left: 30px;
+
+}
+.workshow .workshow_pic .workshow_pic_right dl {
+	float: left;
+	width: 217px;
+	height: 145px;
+	margin: 5px 12px 40px 0;
+}
+.workshow .workshow_pic .workshow_pic_right dl dd {
+	text-align: center;
+	color: #747070;
+	font-weight: bold;
+	font-size: 14px;
+}
+.main {
+	width: 969px;
+	height: 904px;
+	margin: 15px auto 12px;
+}
+.main .main_left {
+	float: left;
+	width: 638px;
+	height: 904px;
+}
+.main .main_left .business {
+	width: 638px;
+	height: 265px;
+	background-color: #fafafa;
+}
+.main .main_left .business .business_left {
+	float: left;
+	width: 345px;
+	height: 155px;
+	margin-top: 20px;
+}
+.main .main_left .business .business_left dt {
+	float: left;
+}
+.main .main_left .business .business_right {
+	float: left;
+	width: 293px;
+	height: 155px;
+	margin-top: 20px;
+}
+.main .main_left .business .business_right dt {
+	float: left;
+}
+.main .main_left .business .business_footer {
+	margin-top: 34px;
+}
+.main .main_left .showdress {
+	width: 638px;
+	height: 265px;
+	margin-top: 35px;
+	background-color: #fafafa;
+}
+.main .main_left .showdress .showdress_pic dl {
+	float: left;
+	margin-left: 22px;
+	margin-top: 17px;
+}
+.main .main_left .activity {
+	float: left;
+	width: 638px;
+	height: 270px;
+	margin-top: 34px;
+}
+.main .main_left .activity .activity_left {
+	float: left;
+	width: 345px;
+	height: 242px;
+	background-color: #fafafa;
+}
+.main .main_left .activity .activity_left dl {
+	font-size: 14px;
+	line-height: 22px;
+}
+.main .main_left .activity .activity_right {
+	float: left;
+	width: 290px;
+	height: 242px;
+	margin-left: 3px;
+	background-color: #fafafa;
+}
+.main .main_left .activity .activity_right dl {
+	font-size: 14px;
+	line-height: 30px;
+}
+.main .main_left .activity .activity_left dt {
+	float: left;
+}
+.main .main_right {
+	float: right;
+	width: 307px;
+	height: 904px;
+}
+.main .main_right .showlove {
+	width: 304px;
+	height: 437px;
+	background-color: #fafafa;
+}
+.main .main_right .showlove dl {
+	background-color: #fff;
+}
+.main .main_right .showlove dt {
+	float: left;
+	margin-top: 10px;
+}
+.main .main_right .contactpic {
+	width: 304px;
+	height: 439px;
+	margin-top: 20px;
+}
+.footer {
+	width: 1240px;
+	height: 388px;
+}
+.footer .footer_message {
+	width: 1240px;
+	height: 274px;
+	background-color: #333333;
+}
+.footer .footer_message .aboutus {
+	float: left;
+	width: 320px;
+	height: 274px;
+	margin: 0 45px 0 150px;
+	background-color: #333333;
+}
+.footer .footer_message .ourteam {
+	float: left;
+	width: 304px;
+	height: 274px;
+	margin: 0 45px 0 0;
+	background-color: #333333;
+}
+.footer .footer_message .ourteam .ourteam_pic {
+	width: 298px;
+	height: 190px;
+	margin-top: 20px;
+}
+.footer .footer_message .ourteam .ourteam_pic dl {
+	float: left;
+}
+.footer .footer_message .quickentry {
+	float: left;
+	width: 304px;
+	height: 274px;	
+}
+.footer .footer_message .quickentry ul {
+	margin-left: 45px;
+	margin-top: 20px;
+	list-style: none;
+}
+.footer .footer_message .quickentry ul li {
+	line-height: 20px;
+}
+.footer .footer_message .quickentry ul li a {
+	font-size: 14px;
+	color: #b8b8b8;
+	text-decoration: none;
+}
+.footer .footer_message .quickentry ul li a:hover {
+	text-decoration: underline;
+}
+.footer .footer_under {
+	width: 1240px;
+	height: 114px;
+	margin-top: 1px;
+	background-color: #191919;
+	text-align: center;
+	line-height: 35px;	
+}
+
