@@ -9,11 +9,11 @@
 	<!-- 页面顶部区域 -->
 	<div class="top">
 		<ul class="nav">
-			<li><a href="">设为首页</a></li>
+			<li><a href="javascript:;" onclick="setHomepage(this,window.location);">设为首页</a></li>
 			<li>|</li>
-			<li><a href="">在线客服</a></li>
+			<li><a href="#">在线客服</a></li>
 			<li>|</li>
-			<li><a href="">联系我们</a></li>
+			<li><a href="#">联系我们</a></li>
 		</ul>
 	</div>
 	<!-- 页面头部header区域 -->
@@ -202,22 +202,22 @@
 							</dd>
 						</dl>
 						<dl style="clear: both;"></dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
 						<img src="">
 					</div>
 					<div class="activity_right">
 						<dl><a style="color: #F86E9E;font-size: 14px;font-weight: bold;">纳兰婚纱摄影</a></dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
-						<dl>&nbsp;<img src="images/xiaosanjiao.png">&nbsp;&nbsp;纳兰婚纱摄影工作室纳兰婚纱摄影工作室</dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
+						<dl>&nbsp;<img src="images/xiaosanjiao.png"><a href="">纳兰婚纱摄影工作室纳兰婚纱摄影工作室</a></dl>
 					</div>
 				</div>
 				<div class="activity_footer">
@@ -322,5 +322,29 @@
 			<p>版权信息：上海纳兰婚纱摄影工作室所有</p>
 		</div>
 	</div>
+	<script type="text/javascript">
+		window.onload = function(){
+			function SetHome(obj,url){
+				try{
+					obj.style.behavior='url(#default#homepage)';obj.setHomePage(url);
+				}
+				catch(e){
+					if(window.netscape) {
+						try {
+							netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+						}
+						catch (e) {
+							alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+						}
+						var prefs = Components.classes['@mozilla.org/preferences-service;1'].getService(Components.interfaces.nsIPrefBranch);
+						prefs.setCharPref('browser.startup.homepage',url);
+                 	}
+                 	else {
+                 		alert("抱歉，你所使用的浏览器无法完成此操作，请您手动设置为首页。");
+                 	}
+				}
+			}
+		}
+	</script>
 </body>
 </html>

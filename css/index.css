@@ -229,9 +229,15 @@ body {
 	height: 242px;
 	background-color: #fafafa;
 }
-.main .main_left .activity .activity_left dl {
+.main .main_left .activity .activity_left dl a{
 	font-size: 14px;
+	color: #747070;
 	line-height: 22px;
+	text-decoration: none;
+}
+.main .main_left .activity .activity_left dl a:hover {
+	text-decoration: underline;
+	color: #F9733D;
 }
 .main .main_left .activity .activity_right {
 	float: left;
@@ -240,9 +246,15 @@ body {
 	margin-left: 3px;
 	background-color: #fafafa;
 }
-.main .main_left .activity .activity_right dl {
+.main .main_left .activity .activity_right dl a{
 	font-size: 14px;
+	color: #747070;
 	line-height: 30px;
+	text-decoration: none;
+}
+.main .main_left .activity .activity_right dl a:hover {
+	text-decoration: underline;
+	color: #F9733D;
 }
 .main .main_left .activity .activity_left dt {
 	float: left;
