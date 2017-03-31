@@ -103,6 +103,18 @@ body {
 	width: 105px;
 	height: 150px;
 }
+.portrait_news .portrait .portrait_pic img:hover {
+	-webkit-animation: tada 1s .2s ease both;-moz-animation: tada 1s .2s ease both;}
+	@-webkit-keyframes tada{0%{-webkit-transform:scale(1);}
+	10%, 20%{-webkit-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-webkit-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-webkit-transform:scale(1.1) rotate(-3deg);}
+	100%{-webkit-transform:scale(1) rotate(0);}}
+	@-moz-keyframes tada{0%{-moz-transform:scale(1);}
+	10%, 20%{-moz-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-moz-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-moz-transform:scale(1.1) rotate(-3deg);}
+	100%{-moz-transform:scale(1) rotate(0);}}
 .portrait_news .portrait .portrait_pic dl {
 	float: left;
 	width: 111px;
@@ -132,6 +144,18 @@ body {
 	height: 370px;
 	margin: 0 12px 7px 11px;
 }
+.workshow .workshow_pic img:hover {
+	-webkit-animation: tada 1s .2s ease both;-moz-animation: tada 1s .2s ease both;}
+	@-webkit-keyframes tada{0%{-webkit-transform:scale(1);}
+	10%, 20%{-webkit-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-webkit-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-webkit-transform:scale(1.1) rotate(-3deg);}
+	100%{-webkit-transform:scale(1) rotate(0);}}
+	@-moz-keyframes tada{0%{-moz-transform:scale(1);}
+	10%, 20%{-moz-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-moz-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-moz-transform:scale(1.1) rotate(-3deg);}
+	100%{-moz-transform:scale(1) rotate(0);}}
 .workshow .workshow_pic .workshow_pic_left {
 	width: 212px;
 	height: 371px;
@@ -190,9 +214,22 @@ body {
 	height: 155px;
 	margin-top: 20px;
 }
+
 .main .main_left .business .business_left dt {
 	float: left;
 }
+.main .main_left .business .business_left dt img:hover {
+	-webkit-animation: tada 1s .2s ease both;-moz-animation: tada 1s .2s ease both;}
+	@-webkit-keyframes tada{0%{-webkit-transform:scale(1);}
+	10%, 20%{-webkit-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-webkit-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-webkit-transform:scale(1.1) rotate(-3deg);}
+	100%{-webkit-transform:scale(1) rotate(0);}}
+	@-moz-keyframes tada{0%{-moz-transform:scale(1);}
+	10%, 20%{-moz-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-moz-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-moz-transform:scale(1.1) rotate(-3deg);}
+	100%{-moz-transform:scale(1) rotate(0);}}
 .main .main_left .business .business_right {
 	float: left;
 	width: 293px;
@@ -202,6 +239,18 @@ body {
 .main .main_left .business .business_right dt {
 	float: left;
 }
+.main .main_left .business .business_right dt img:hover {
+	-webkit-animation: tada 1s .2s ease both;-moz-animation: tada 1s .2s ease both;}
+	@-webkit-keyframes tada{0%{-webkit-transform:scale(1);}
+	10%, 20%{-webkit-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-webkit-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-webkit-transform:scale(1.1) rotate(-3deg);}
+	100%{-webkit-transform:scale(1) rotate(0);}}
+	@-moz-keyframes tada{0%{-moz-transform:scale(1);}
+	10%, 20%{-moz-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-moz-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-moz-transform:scale(1.1) rotate(-3deg);}
+	100%{-moz-transform:scale(1) rotate(0);}}
 .main .main_left .business .business_footer {
 	margin-top: 34px;
 }
@@ -216,6 +265,18 @@ body {
 	margin-left: 22px;
 	margin-top: 17px;
 }
+.main .main_left .showdress .showdress_pic img:hover {
+	-webkit-animation: tada 1s .2s ease both;-moz-animation: tada 1s .2s ease both;}
+	@-webkit-keyframes tada{0%{-webkit-transform:scale(1);}
+	10%, 20%{-webkit-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-webkit-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-webkit-transform:scale(1.1) rotate(-3deg);}
+	100%{-webkit-transform:scale(1) rotate(0);}}
+	@-moz-keyframes tada{0%{-moz-transform:scale(1);}
+	10%, 20%{-moz-transform:scale(0.9) rotate(-3deg);}
+	30%, 50%, 70%, 90%{-moz-transform:scale(1.1) rotate(3deg);}
+	40%, 60%, 80%{-moz-transform:scale(1.1) rotate(-3deg);}
+	100%{-moz-transform:scale(1) rotate(0);}}
 .main .main_left .activity {
 	float: left;
 	width: 638px;
