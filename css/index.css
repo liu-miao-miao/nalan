@@ -4,7 +4,7 @@ body,ul,li,p,h1,h2,h3,h4,h5,h6,img,br,hr,table,tr,td,dl,dt,dd,form {
 }
 body {
 	width: 1240px;
-	margin: 0 auto;
+	margin: 18px auto 0 auto;
 	color: #7e7e7e;
 	-webkit-animation-name: fadein;
 	-webkit-animation-duration: 3s;
